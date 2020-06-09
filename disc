@@ -9,9 +9,9 @@
         ],
         "payloads": [
             [
-                "file",
+                "list",
                 {
-                    "default": "/usr/share/wordlists/dirb/big.txt",
+                    "default": "robots.txt",
                     "encoder": null
                 },
                 null
