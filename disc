@@ -1,0 +1,23 @@
+{
+    "version": "0.2",
+    "wfuzz_recipe": {
+        "hc": [
+            "400"
+        ],
+        "hw": [
+            "BBB"
+        ],
+        "payloads": [
+            [
+                "file",
+                {
+                    "default": "/usr/share/wordlists/dirb/big.txt",
+                    "encoder": null
+                },
+                null
+            ]
+        ],
+        "script": "robots,listing",
+        "url": "REP"
+    }
+}
