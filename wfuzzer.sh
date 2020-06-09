@@ -8,7 +8,7 @@
 # Outputs to ~/.wfuzz/output as md5 filenames
 # Look at ~/.wfuzz/output/log.txt which file is what
 
-url="$1/FUZZ/{notthere}"
+url="$1/FUZZ{notthere}"
 echo $url
 dir=~/.wfuzz
 
