@@ -6,7 +6,7 @@ export WFUZZ_SCANS="~/Current Client/scans/wfuzz"
 wfz()
 {
   domain="${1//https:\/\//}"
-  domain="${domain//https:\/\//}"
+  domain="${domain//http:\/\//}"
   domain="${domain//:*/}"
   domain="${domain//\/*/}"
   
